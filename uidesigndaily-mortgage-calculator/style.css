@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #EBEBF3;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family: "Poppins";
+    color: #494a4d;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 22px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.border {
+    border-radius: 15px;
+    border: 15px solid #fff;
+    background-color: #fff;
+    width: 100%;
+    max-width: 780px;
+    box-shadow: 0 6px 10px #B4B4C0;
+}
+
+.card {
+    border-radius: 15px;
+    padding: 30px 40px;
+    color: #494a4d;
+    background-color: #EBEBF3;
+}
+
+p {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.gird-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    margin: 15px 0;
+}
+
+input[type=range] {
+    appearance: none;
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    opacity: .6;
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    appearance: none;
+    background-color: #979EE8;
+    height: 8px;
+    border-radius: 25px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border: 4px solid #4A56C2;
+    border-radius: 50%;
+    margin-top: -2%;
+}
+
+input[type=range]::-moz-range-track {
+    appearance: none;
+    background-color: #979EE8;
+    height: 8px;
+    border-radius: 25px;
+}
+
+input[type=range]::-moz-range-thumb {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border: 4px solid #4A56C2;
+    border-radius: 50%;
+    margin-top: -2%;
+}
+
+input[type=range]::-moz-range-progress {
+    appearance: none;
+    background-color: #B4B4C0;
+    height: 8px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+button {
+    margin-top: 5px;
+    padding: 20px 35px;
+    color: white;
+    background-color: #4A56C2;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color .6s ease;
+}
+
+button:hover {
+    background-color: #979EE8;
+}
+
+@media screen and (max-width: 650px) {
+    .title {
+        font-size: 15px;
+    }
+
+    .border {
+        max-width: 300px;
+    }
+
+    .gird-area {
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+    }
+
+    button {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="border">
+        <div class="card">
+            <h1 class="title">Mortgage calculator</h1>
+
+            <div class="range-area gird-area">
+                <div>
+                    <p>Purchase price: <b>$ <span class="price-output"></span></b></p>
+                    <input class="price" type="range" name="price-input" min="0" max="1000.000" value="450.000" step="0.001">
+                </div>
+
+                <div>
+                    <p>Equality: <b>$ <span class="equality-number"></span></b></p>
+                    <input type="range" class="equality-range" name="price-input" min="0" max="500.000" value="135.000" step="0.001">
+                </div>
+
+                <div>
+                    <p>Repayment time: <b><span class="years-number"></span></b></p>
+                    <input class="years-range" type="range" name="price-input" min="0" max="30" value="25">
+                </div>
+            </div>
+
+            <div class="div-kedua gird-area">
+                <div>
+                    <p>Loan amount</p>
+                    <h3>$315,000</h3>
+                </div>
+
+                <div>
+                    <p>Estimation per month</p>
+                    <h3>$1,300</h3>
+                    <small>2.10% off/2.4% interest</small>
+                </div>
+            </div>
+
+            <button>Get a Mortgage quote</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
