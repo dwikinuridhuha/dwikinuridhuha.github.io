@@ -1,0 +1,65 @@
+.style-switcher {
+    position: fixed;
+    top: 20px;
+    right: 0;
+    z-index: 100;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #d4d4e3;
+    border-right: none;
+    border-radius: 0 0 0 10px;
+    transform: translateX(100%);
+    transition: transform .3s ease;
+}
+
+.style-switcher.open{
+    transform: translateX(0);
+}
+
+.style-switcher h5 {
+    font-size: 16px;
+    color: #302e4d;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    margin-top: 0;
+    border-bottom: 1px solid #e8dfec;
+}
+
+.style-switcher ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.style-switcher ul li {
+    display: inline-block;
+}
+
+.style-switcher ul li a {
+    height: 30px;
+    width: 30px;
+    display: block;
+    border-radius: 50%;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 3px;
+}
+
+.style-switcher .toggle-style-switcher {
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    background-color: white;
+    left: -45px;
+    top: -1px;
+    border: 1px solid #d4d4e3;
+    border-right: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px 0 0 4px;
+}
+
+.style-switcher .toggle-style-switcher .fa {
+    font-size: 20px;
+    line-height: 45px;
+}
