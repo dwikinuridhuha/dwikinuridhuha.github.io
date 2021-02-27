@@ -37,7 +37,7 @@
 
 | Demo&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Link Design in Front End Mentor                                                        |
 | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| [REST Countries API](https://dwikinuridhuha.github.io/daftar-nama-negara) | https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca |
+| [REST Countries API](https://dwikinuridhuha.github.io/front-end-mentor-daftar-nama-negara) | https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca |
 
 <div align="right">
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
