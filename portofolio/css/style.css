@@ -449,6 +449,7 @@ body {
     /* background-color: blue; */
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .about .about-content .skill .skill-item h5 {
@@ -478,33 +479,8 @@ body {
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 0;
     border-top-right-radius: 0;
-}
-
-.about .about-content .skill .skill-item .progress {
-    background-color: #e3e3e3e3;
-    height: 8px;
-    border-radius: 4px;
-    /*overflow: hidden;*/
-    /*width: 100%;*/
-    position: relative;
-}
-
-.about .about-content .skill .skill-item .progress .progress-in {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: inherit;
-    border-radius: inherit;
-}
-
-.about .about-content .skill .skill-item .skill-percent {
-    /*display: none;*/
-    line-height: 40px;
-    position: absolute;
-    right: 0;
-    top: -40px;
-    font-weight: 400;
-    color: #302e4d;
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 5px rgba(63, 63, 63, 0.6);
 }
 
 .about .about-content .education {
@@ -909,6 +885,10 @@ body {
         margin-left: 0;
     }
 
+    .about .about-content .skill .skill-item h5 {
+        margin: 10px;
+    }
+
     .blog .blog-item,
     .service .service-item {
         flex: 0 0 50%;
@@ -920,10 +900,6 @@ body {
     .blog .blog-item,
     .contact .contact-info-item {
         margin-bottom: 20px;
-    }
-    .about .about-content .skill .skill-item {
-        flex: 0 0 50%;
-        max-width: 50%;
     }
     .contact .contact-form .col-6,
     .contact .contact-info-item,
@@ -966,6 +942,10 @@ body {
 /*responsif end*/
 
 /* dark body  start*/
+body.dark .about .about-content .skill .skill-item h5:hover {
+    box-shadow: 5px 5px 5px rgba(216, 216, 216, 0.6);
+}
+
 body.dark,
 body.dark .section {
     background-color: #151515;
